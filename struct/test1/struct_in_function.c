@@ -36,7 +36,7 @@ int main( )
  
    return 0;
 }
-void printBook(  book )
+void printBook( struct Books book )
 {
    printf( "Book title : %s\n", book.title);
    printf( "Book author : %s\n", book.author);
